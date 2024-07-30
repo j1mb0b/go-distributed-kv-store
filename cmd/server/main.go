@@ -2,10 +2,11 @@ package main
 
 import (
 	"encoding/json"
-	"go-distributed-kv-store/pkg/consistenthash"
-	"go-distributed-kv-store/pkg/node"
 	"net/http"
 	"sync"
+
+	consistenthash "github.com/j1mb0b/go-distributed-kv-store/pkg/consistent_hash"
+	"github.com/j1mb0b/go-distributed-kv-store/pkg/node"
 )
 
 var (

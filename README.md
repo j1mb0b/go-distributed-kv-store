@@ -1,3 +1,7 @@
+# NOTE
+
+This is a learning exercise and is under development.
+
 # Consistent Hashing with Replication
 
 This project implements a consistent hashing ring with a specified replication factor. The goal is to distribute data items across nodes in a distributed system in a predictable and balanced manner, ensuring high availability and load balancing.
